@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 80%;
+  background-color: rgb(247, 242, 245);
+}
+label {
+  display: block;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 5px auto;
+}
+h2 {
+  margin: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+input {
+  display: block;
+  height: 2rem;
+  width: 10rem;
+  border: none;
+  margin: 5px auto;
+}
+header {
+  background-color: rgb(226, 153, 43);
+  width: 100%;
+  min-width: 320px;
+}
+header > h1 {
+  font-size: 3rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+main {
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  max-width: 500px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  /* border: rgb(136, 136, 136) 5px solid; */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  height: 2.3rem;
+  margin-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: fit-content;
+  font-size: 1.3rem;
+  background-color: rgb(172, 134, 134);
+  border-radius: 5px;
+  border: none;
+}
+button:hover {
+  background-color: rgb(211, 164, 172);
+}
+.cuadrado {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(139, 34, 34);
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid rgb(139, 34, 34);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.circulo {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(139, 34, 34);
+  border-radius: 50%;
+}
+
+@media (max-width: 965px) {
+  .container-triangulo {
+    background-color: darkgoldenrod;
+  }
+  section {
+    max-width: 100vw ;
+    width: 100vw ; 
+  }
+}
