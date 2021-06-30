@@ -4,7 +4,21 @@
 
 ## Taller #1:Figuras gometricas
 
-1º- Definir las fórmulas.
-2º- Implementar las fórmulas en Javascript.
-3º- Crear funciones. 
-4º- Integrar JS con HMTL.
+-1º Definir las fórmulas.
+-2º Implementar las fórmulas en Javascript.
+-3º Crear funciones. 
+-4º Integrar JS con HMTL.
+
+## Taller #2:Porcentajes y descuentos
+
+-1º Definir las fórmulas.
+-2º Implementar las fórmulas en Javascript.
+-3º Crear funciones. 
+-4º Integrar JS con HMTL.
+
+## Taller #3:Porcentajes y descuentos
+
+-1º Definir las fórmulas.
+-2º Implementar las fórmulas en Javascript.
+-3º Crear funciones. 
+-4º Integrar JS con HMTL.
