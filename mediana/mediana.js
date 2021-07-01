@@ -4,6 +4,9 @@ function calcularMediaAritmetica(lista){
             return valorAcumulado+nuevoElemento;
         }
     );
+    const promedioLista=sumaLista/lista.length;
+    return promedioLista;
+}
 const lista1=[
     100,
     200,
